@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - BrightLeaf Pet Care App</title>
+    <style>
+        :root {
+            --primary-color: #2e7d32;
+            --text-color: #374151;
+            --heading-color: #111827;
+            --bg-color: #f3f4f6;
+            --card-bg: #ffffff;
+            --accent-bg: #f9fafb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        header {
+            border-bottom: 2px solid #edf2f7;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--heading-color);
+            margin: 0 0 10px 0;
+            font-size: 2rem;
+        }
+
+        .meta {
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.25rem;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: "•";
+            margin-right: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .contact-card {
+            background-color: var(--accent-bg);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 40px;
+        }
+
+        .contact-card h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--heading-color);
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #9ca3af;
+            border-top: 1px solid #edf2f7;
+            padding-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <div class="meta">
+                <div><strong>Developer:</strong> BrightLeaf</div>
+                <div><strong>Last Updated:</strong> February 21, 2026</div>
+            </div>
+        </header>
+
+        <section>
+            <h2>1. Our Commitment to Privacy</h2>
+            <p>Your privacy is our absolute priority. This Pet Care App is designed as a "local-first" tool. This means we do not collect, transmit, store, or share any personal data, health records, or financial information from our users with any external servers or third parties.</p>
+        </section>
+
+        <section>
+            <h2>2. Data Storage & Technology</h2>
+            <p>To ensure maximum privacy, all data you input—including pet profiles, medication schedules, and health logs—is stored <strong>locally on your device</strong> using internal database technology (SQLite). We have no access to this data, and it is never synchronized to a cloud service.</p>
+        </section>
+
+        <section>
+            <h2>3. Device Permissions</h2>
+            <p>To provide essential pet care reminders, the app utilizes the following device features:</p>
+            <ul>
+                <li><strong>Local Notifications:</strong> We request notification access via the <code>permission_handler</code> package. This is used solely to trigger alerts for your pet’s tasks (e.g., feeding times, vet appointments). These alerts are generated entirely on your device.</li>
+            </ul>
+            <p>The app does not use or request access to your camera, location, contacts, or microphone.</p>
+        </section>
+
+        <section>
+            <h2>4. Third-Party Services</h2>
+            <p>We do not integrate with third-party analytics, advertising networks, or tracking SDKs. Your app usage remains completely anonymous to us and any third-party entities.</p>
+        </section>
+
+        <section>
+            <h2>5. Your Rights & Data Deletion</h2>
+            <p>Since all data exists only on your device, you have complete sovereignty over it. To permanently erase all information associated with the app, you can simply uninstall the application or clear the app's data in your device settings.</p>
+        </section>
+
+        <div class="contact-card">
+            <h3>Contact Us</h3>
+            <p>If you have any questions or concerns regarding this Privacy Policy, please reach out to us:</p>
+            <div class="contact-info">
+                <span><strong>Developer:</strong> BrightLeaf</span>
+                <span><strong>Email:</strong> <a href="mailto:shamimcser@gmail.com">shamimcser@gmail.com</a></span>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2026 BrightLeaf. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
